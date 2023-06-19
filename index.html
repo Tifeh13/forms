@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Checkout</h1>
+        </div>
+        <section>
+            <div class="first">
+                <h3>Contact Information</h3>
+                <div class="content">
+                    <p>Email</p>
+                    <div class="form-container">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input id="input" type="email" name="email" placeholder="Enter your email..." required>
+                    </div>
+                    <p>Phone</p>
+                    <div class="form-container">
+                        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                        <input  id="input" type="text" name="number" placeholder="Enter your phone..." required>
+                    </div>
+                </div>
+                <div class="content2">
+                    <h1>Shipping Address</h1>
+                    <p>Full name</p>
+                    <div class="form-container">
+                        <span class="icon"><i class="fa-solid fa-circle-user"></i></span>
+                        <input  id="input" type="text" name="Rodney Cotton" value="Rodney Cotton" required >
+                    </div>
+                    <p>Address</p>
+                    <div class="form-container">
+                        <span class="icon"><i class="fa-solid fa-house"></i></span>
+                        <input  id="input" type="text" name="Address" placeholder="Your Address.." required>
+                    </div>
+                    <p>City</p>
+                    <div class="form-container">
+                        <span class="icon"><i class="fa-solid fa-city"></i></span>
+                        <input  id="input" type="text" name="Address" placeholder="Your city.." required>
+                    </div>
+                    <div class="section2">
+                       <div class="box1">
+                        <div class="content3">
+                            <p>Country</p>
+                            <div class="form-container">
+                                <span class="icon"><i class="fa-solid fa-earth"></i></span>
+                                <select  id="input" type="text" name="Your country.." placeholder="Your country.." required>
+                                    <option value="Your Country..">Nigeria</option>
+                                    <option value="Your Country..">Ghana</option>
+                                    <option value="Your Country..">Guinea</option>
+                                    <option value="Your Country..">Argentina</option>
+                                    <option value="Your Country..">Portugal</option>
+                                    <option value="Your Country..">Mali</option>
+                                    <option value="Your Country..">Brazil</option>
+                                    <option value="Your Country..">Morocco</option>
+                                </select>
+                            </div>
+                        </div>
+                       </div>
+                      <div class="box2">
+                        <div class="content4">
+                            <p>Postal code</p>
+                            <div class="form-container">
+                                <span class="icon"><i class="fa-solid fa-box"></i></span>
+                                <input  id="input" type="text" name="Address" placeholder="Your postal code.." required>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content2">
+                       <input type="checkbox" name="Info" id="Info">
+                       <label for="">Save this information for next time</label>
+                    </div>
+                   <div id="button">
+                    Continue
+                   </div>
+                </div>
+            </div>
+            <div class="second">
+                <div class="card-cont">
+                    <div class="image">
+                        <img src="./Image/bag.jpg" alt="">
+                    </div>
+                    <div class="card-context">
+                        <h5>Vintage Backpack</h5>
+                       <div id="money">
+                        <p>$54.99</p>&nbsp;&nbsp;&nbsp;&nbsp;<span>$94.99</span> 
+                       </div>
+                        <div class="box-cont">
+                            <button><i class="fa-solid fa-minus"></i></button>
+                            <p>1</p>
+                            <button><i class="fa-soild fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-cont">
+                    <div class="image">
+                        <img src="./Image/shoe.jpg" alt="">
+                    </div>
+                    <div class="card-context">
+                        <h5>Levi Shoe</h5>
+                       <div id="money">
+                        <p>$74.99</p>&nbsp;&nbsp;&nbsp;&nbsp;<span>$124.99</span> 
+                       </div>
+                        <div class="box-cont">
+                            <button><i class="fa-solid fa-minus"></i></button>
+                            <p>1</p>
+                            <button><i class="fa-soild fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shipping-line">
+                    <div class="shipping">
+                        <h1>Shipping</h1> 
+                        <p>$19</p>
+                    </div>
+                </div>
+                <div class="shipping-line">
+                    <div class="shipping">
+                        <h1>Total</h1> 
+                        <p>$148.98</p>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </section>
+    </div>
+
+
+
+
+   <!-- <div class="container">
+        <h1>Checkout</h1>
+   <br>
+   <br>
+    <h5>Contact information</h5>
+     <br>
+        <section>
+            <div class="first">
+               <div class="cont">
+                <p>Email</p>
+                    <div class="form-outer">
+                        <span class="icon"></i></span>
+                        <input class="box" type="email" name="email" placeholder="Enter your email...">
+                    </div>
+                    <p>Email</p>
+                    <div class="form-outer">
+                        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                        <input class="box" type="number" name="number" placeholder="Enter your number...">
+                    </div>
+            </div>
+        </section>
+    </div> -->
+</body>
+</html>

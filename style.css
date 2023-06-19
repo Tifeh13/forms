@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+    box-sizing: border-box;
+}
+.container{
+    padding: 7rem 14rem;
+    width: 100%;
+    color: #333333;
+}
+.text{
+    font-size: 2rem;
+    margin-bottom:50px ;
+}
+section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.first{
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.content{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.content p{
+    margin: 25px 0 10px 0;
+}
+.form-container{
+    position: relative;
+}
+#input{
+    border: 1px solid #828282;
+    width: 100%;
+    border-radius: 12px;
+    height: 70px;
+    padding:15px 55px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: transparent;
+    color: #828282;
+}
+.icon{
+    width: 100%;
+    position:absolute;
+    left: 13px;
+    top: 18px;
+    font-size: 1.5rem;
+    color: #828282;
+}
+.content2{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.content2 p{
+    margin: 25px 0 10px 0;
+}
+.content2 h1{
+    font-size: 1.8rem;
+}
+.section2{
+    display: flex;
+    width: 100%;
+    gap: 50px; 
+}
+.box1{
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.content3{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.content3 p{
+    margin: 25px 0 10px 0;
+}
+.content4{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.content4 p{
+    margin: 25px 0 10px 0;
+}
+.box2{
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+/* #small{
+    border:1px solid #828282;
+    width: 5px;
+    height: 5px;
+} */
+#button {
+    background-color: orange; 
+    border-radius: 5px;
+    border: 1px solid orange;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+}
+.second{
+    width: 40%;
+    box-sizing: border-box;
+    background: rgba(148, 147, 147,0.3);
+    border-radius: 1rem;
+    height: 85%;
+}
+.card-cont{
+    display: flex;
+    width: 100%;
+    padding: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    width: 40%;
+
+}
+.image img{
+    width: 80%;
+    border-radius: 10px;
+}
+.card-context{
+    width: 50%;
+}
+.card-cont p{
+    font-size: 1.7rem;
+}
+.card-cont h5{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#money{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 1rem 0rem;
+}
+#money p{
+    color: orange;
+    font-weight:bolder ;
+}
+#money span{
+    text-decoration: line-through;
+    font-size: 1.4rem;
+}
+.box-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #828282;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 1.5rem;
+}
+button{
+    width: 30%;
+    color:black;
+    background-color: rgba(148, 147, 147,0.3);
+    border: 1px solid rgba(148, 147, 147,0.3);
+}
+.shipping{
+   /* padding: 2rem 2rem; */
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+   border-top: 1px solid #828282;
+   width: 100%;
+   padding: 1rem;
+}
+.shipping-line{
+    display: flex;
+    width: 100%;
+    padding: .1rem 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shipping p{
+    font-size: 1.5rem;
+}
+@media (max-width:860px) {
+    .container{
+        padding: 50px 40px;
+       
+    }
+    .second{
+        width: 100%;
+        min-width: 20px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .first{
+        margin-top: 20%;
+        width: 100%;
+        min-width: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content2{
+        margin: 20px 0px;
+    }
+    .card-context{
+        font-size: 0.8rem;
+    }
+    .card-cont{
+        padding: 5px 0;
+    }
+    .box-cont{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #money{
+        font-size: 10px;
+    }
+    .shipping{
+        margin-top: 20px;
+        font-size: 10px;
+        width: 100%;
+    }
+    .shipping-line p{
+        font-size: 15px;
+    }
+    .shipping-line{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .image{
+        width: 100%;
+    }
+
+}
+
+
+
+/*.box{
+   
+    /* <i class="fa-duotone fa-circle-user"></i> 
+}
+.form-outer{
+    position: relative;
+    margin-top: 20px;
+} */
